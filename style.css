@@ -333,7 +333,7 @@
 }
 footer{
     width: 100%;
-    position: relative;
+    position: absolute;
     bottom: 0;
     height: 100px;
     background-color: rosybrown;
