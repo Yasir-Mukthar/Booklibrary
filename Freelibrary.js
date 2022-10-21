@@ -22,13 +22,13 @@ myInput.addEventListener("input", function(){
 
 let inputvalue=myInput.value.toUpperCase();
 
-console.log("input event fired.");
+//console.log("input event fired.");
 
 let latestCol=document.getElementsByClassName("latest-col");
 Array.from(latestCol).forEach(function(element){
 
 let Coltxt=element.getElementsByTagName("h3")[0].innerText.toUpperCase();
-console.log(Coltxt);
+//console.log(Coltxt);
 if(Coltxt.includes(inputvalue)){
 element.style.display="block";
 }else{
